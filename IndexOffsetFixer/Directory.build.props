@@ -1,0 +1,13 @@
+<Project>
+  <PropertyGroup Condition="'$(CI)' != ''">
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="$(ProjectName).csproj.user" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="stylecop.json" />
+  </ItemGroup>
+</Project>

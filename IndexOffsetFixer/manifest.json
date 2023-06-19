@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+  "id": "IndexOffsetFixer",
+  "name": "Index Offset Fixer",
+  "author": "nicoco007",
+  "version": "1.0.0",
+  "description": "Fixes the default Index controller offset so the saber matches the controller's handle more closely.",
+  "gameVersion": "1.31.0",
+  "dependsOn": {
+    "BSIPA": "^4.3.0"
+  }
+}
